@@ -14,8 +14,10 @@ Sebelum menjalankan skrip ini, pastikan Anda telah menginstal Python dan pustaka
 
 ```bash
 pkg install python
+pkg instll git
 pip install requests
 pip install colorama
+git clone https://github.com/RidXploit403/Admin-Finder.git
 python admin_finder.py
 
 Enter the target URL : http://example.com
