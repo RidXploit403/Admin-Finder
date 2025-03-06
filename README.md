@@ -13,4 +13,13 @@ Admin Path Scanner adalah alat sederhana yang ditulis dalam Python untuk meminda
 Sebelum menjalankan skrip ini, pastikan Anda telah menginstal Python dan pustaka yang diperlukan. Anda dapat menginstal pustaka yang diperlukan dengan menjalankan perintah berikut:
 
 ```bash
-pip install requests colorama
+pkg install python
+pip install requests
+pip install colorama
+python admin_finder.py
+
+Enter the target URL : http://example.com
+[*] Scanning http://example.com for admin paths...
+[+] Found: http://example.com/admin/login.php
+[-] Not found: http://example.com/admin/index.php
+[!] Status 203: http://example.com/wp-login.php
